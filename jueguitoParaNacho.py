@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("feliz san valentin bb")
 
 # Cargar imágenes y escalarlas
-player_image = pygame.image.load("d:/Users/Kate/Desktop/jueguitu/imgs/bb.png")
+player_image = pygame.image.load("imgs/bb.png")
 player_image = pygame.transform.scale(player_image, (70, 70))
 
 bullet_image = pygame.image.load("imgs/corazón.png")
